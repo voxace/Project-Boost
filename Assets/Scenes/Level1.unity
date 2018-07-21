@@ -162,6 +162,11 @@ Prefab:
       propertyPath: m_Drag
       value: 0.2
       objectReference: {fileID: 0}
+    - target: {fileID: 114438368122373774, guid: 02ea81233a4590a4ba0c7144c39a1f90,
+        type: 2}
+      propertyPath: rcsThrust
+      value: 75
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 02ea81233a4590a4ba0c7144c39a1f90, type: 2}
   m_IsPrefabAsset: 0
