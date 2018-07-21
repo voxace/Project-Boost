@@ -33,7 +33,7 @@ RenderSettings:
   m_HaloTexture: {fileID: 0}
   m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
   m_DefaultReflectionMode: 0
-  m_DefaultReflectionResolution: 128
+  m_DefaultReflectionResolution: 256
   m_ReflectionBounces: 1
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
@@ -44,7 +44,7 @@ RenderSettings:
 LightmapSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 11
-  m_GIWorkflowMode: 0
+  m_GIWorkflowMode: 1
   m_GISettings:
     serializedVersion: 2
     m_BounceScale: 1
@@ -58,8 +58,8 @@ LightmapSettings:
     serializedVersion: 10
     m_Resolution: 2
     m_BakeResolution: 10
-    m_AtlasSize: 512
-    m_AO: 0
+    m_AtlasSize: 1024
+    m_AO: 1
     m_AOMaxDistance: 1
     m_CompAOExponent: 1
     m_CompAOExponentDirect: 0
@@ -89,7 +89,8 @@ LightmapSettings:
     m_PVRFilteringAtrousPositionSigmaIndirect: 2
     m_PVRFilteringAtrousPositionSigmaAO: 1
     m_ShowResolutionOverlay: 1
-  m_LightingDataAsset: {fileID: 0}
+  m_LightingDataAsset: {fileID: 112000002, guid: ee1a171e9ac8a7f4289e1085a19795db,
+    type: 2}
   m_UseShadowmask: 1
 --- !u!196 &4
 NavMeshSettings:
@@ -772,19 +773,19 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4864800569592572, guid: c871f8e388e38094b88acbdcb4180584, type: 2}
       propertyPath: m_LocalRotation.x
-      value: -0.18311533
+      value: -0.14232728
       objectReference: {fileID: 0}
     - target: {fileID: 4864800569592572, guid: c871f8e388e38094b88acbdcb4180584, type: 2}
       propertyPath: m_LocalRotation.y
-      value: -0.07948931
+      value: -0.019832453
       objectReference: {fileID: 0}
     - target: {fileID: 4864800569592572, guid: c871f8e388e38094b88acbdcb4180584, type: 2}
       propertyPath: m_LocalRotation.z
-      value: -0.54981893
+      value: -0.56176066
       objectReference: {fileID: 0}
     - target: {fileID: 4864800569592572, guid: c871f8e388e38094b88acbdcb4180584, type: 2}
       propertyPath: m_LocalRotation.w
-      value: 0.8110792
+      value: 0.8147236
       objectReference: {fileID: 0}
     - target: {fileID: 4864800569592572, guid: c871f8e388e38094b88acbdcb4180584, type: 2}
       propertyPath: m_RootOrder
@@ -804,7 +805,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4864800569592572, guid: c871f8e388e38094b88acbdcb4180584, type: 2}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: -69.165
+      value: -70.15401
       objectReference: {fileID: 0}
     - target: {fileID: 4864800569592572, guid: c871f8e388e38094b88acbdcb4180584, type: 2}
       propertyPath: m_LocalScale.z
@@ -812,11 +813,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4864800569592572, guid: c871f8e388e38094b88acbdcb4180584, type: 2}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: -22.61
+      value: -14.726001
       objectReference: {fileID: 0}
     - target: {fileID: 4864800569592572, guid: c871f8e388e38094b88acbdcb4180584, type: 2}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 4.499
+      value: 7.5810003
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c871f8e388e38094b88acbdcb4180584, type: 2}
@@ -1531,7 +1532,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4864800569592572, guid: c871f8e388e38094b88acbdcb4180584, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 31.14
+      value: 33.92
       objectReference: {fileID: 0}
     - target: {fileID: 4864800569592572, guid: c871f8e388e38094b88acbdcb4180584, type: 2}
       propertyPath: m_LocalPosition.y
@@ -1539,7 +1540,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4864800569592572, guid: c871f8e388e38094b88acbdcb4180584, type: 2}
       propertyPath: m_LocalPosition.z
-      value: -16.49
+      value: -16.55
       objectReference: {fileID: 0}
     - target: {fileID: 4864800569592572, guid: c871f8e388e38094b88acbdcb4180584, type: 2}
       propertyPath: m_LocalRotation.x
@@ -1567,7 +1568,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4864800569592572, guid: c871f8e388e38094b88acbdcb4180584, type: 2}
       propertyPath: m_LocalScale.x
-      value: 8.317115
+      value: 12.059817
       objectReference: {fileID: 0}
     - target: {fileID: 1082391907160696, guid: c871f8e388e38094b88acbdcb4180584, type: 2}
       propertyPath: m_Name

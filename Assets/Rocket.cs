@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Rocket : MonoBehaviour {
 
@@ -31,8 +32,13 @@ public class Rocket : MonoBehaviour {
             case "Fuel":
                 print("Re-fueled!");
                 break;
+            case "Finish":
+                print("Finished Level!");
+                SceneManager.LoadScene(1);
+                break;
             default:
                 print("Dead!");
+                SceneManager.LoadScene(0);
                 break;
         }
     }
