@@ -21,6 +21,22 @@ public class Rocket : MonoBehaviour {
         ProcessInput();
 	}
 
+    private void OnCollisionEnter(Collision collision)
+    {
+        switch(collision.gameObject.tag)
+        {
+            case "Friendly":
+                // do nothing
+                break;
+            case "Fuel":
+                print("Re-fueled!");
+                break;
+            default:
+                print("Dead!");
+                break;
+        }
+    }
+
     private void ProcessInput()
     {
         Thrust();
