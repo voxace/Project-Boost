@@ -647,6 +647,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c17318389e182c540b84f481e3d109d8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &534669904
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 534669902}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33f368bcea7534c4a871dcd998d9f9b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
   player: {fileID: 609615348}
 --- !u!1001 &579671516
 Prefab:
@@ -1450,32 +1461,6 @@ Prefab:
     - target: {fileID: 4538557643798954, guid: 02ea81233a4590a4ba0c7144c39a1f90, type: 2}
       propertyPath: m_RootOrder
       value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 4516591453586572, guid: 02ea81233a4590a4ba0c7144c39a1f90, type: 2}
-      propertyPath: m_LocalScale.x
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 4516591453586572, guid: 02ea81233a4590a4ba0c7144c39a1f90, type: 2}
-      propertyPath: m_LocalScale.y
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 4516591453586572, guid: 02ea81233a4590a4ba0c7144c39a1f90, type: 2}
-      propertyPath: m_LocalScale.z
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 4516591453586572, guid: 02ea81233a4590a4ba0c7144c39a1f90, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: -3
-      objectReference: {fileID: 0}
-    - target: {fileID: 198766969173032060, guid: 02ea81233a4590a4ba0c7144c39a1f90,
-        type: 2}
-      propertyPath: lengthInSec
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 198766969173032060, guid: 02ea81233a4590a4ba0c7144c39a1f90,
-        type: 2}
-      propertyPath: looping
-      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 02ea81233a4590a4ba0c7144c39a1f90, type: 2}
